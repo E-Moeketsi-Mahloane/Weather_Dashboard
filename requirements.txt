@@ -1,0 +1,5 @@
+# I pin these so my app installs identically on any machine (mine, the marker's, anyone's).
+# flet = the UI framework I'm using for the whole app.
+# requests = what I'll use to talk to the Open-Meteo REST API.
+flet==0.24.1
+requests==2.32.3
