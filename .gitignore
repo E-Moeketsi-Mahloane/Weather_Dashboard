@@ -1,0 +1,53 @@
+# I'm ignoring virtual environments — they're machine-specific and huge.
+# This is the #1 thing that bloats repos and Moodle zips.
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache — auto-regenerated, never belongs in version control.
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Flet / Python build output — created when you build/pack an APK or bundle.
+build/
+dist/
+*.spec
+
+# Flet-specific desktop/web build artefacts.
+.flet/
+storage/
+
+# OS junk files — macOS and Windows clutter that sneaks in.
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / editor folders — your setup, not the project's.
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment variables and secrets — NEVER commit these.
+.env
+.env.*
+*.key
+
+# Test / coverage output.
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and local databases (safety net — you shouldn't have these, but just in case).
+*.log
+*.sqlite3
+*.db
